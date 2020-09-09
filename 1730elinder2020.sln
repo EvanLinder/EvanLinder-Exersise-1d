@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elinder1c1", "elinder1c1\el
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elinder1d1", "elinder1d1\elinder1d1.csproj", "{AE61843B-B1D5-4172-AA9C-B9C7064EB38B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elinder1e", "elinder1e\elinder1e.csproj", "{7A43B4AF-D951-4BA8-9DD4-CD9DEC5C0324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AE61843B-B1D5-4172-AA9C-B9C7064EB38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE61843B-B1D5-4172-AA9C-B9C7064EB38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE61843B-B1D5-4172-AA9C-B9C7064EB38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A43B4AF-D951-4BA8-9DD4-CD9DEC5C0324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A43B4AF-D951-4BA8-9DD4-CD9DEC5C0324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A43B4AF-D951-4BA8-9DD4-CD9DEC5C0324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A43B4AF-D951-4BA8-9DD4-CD9DEC5C0324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

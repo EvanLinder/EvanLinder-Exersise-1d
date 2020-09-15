@@ -16,7 +16,7 @@ namespace elinder1730
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmCurrencyConverterv2());
         }
     }
 }

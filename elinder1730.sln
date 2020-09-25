@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elinder1f1", "elinder1730\elinder1f1.csproj", "{71CCBA20-4CF4-458E-A52B-5090B25FD503}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "variableSamp", "variableSamp\variableSamp.csproj", "{B6E265B7-CFB1-46DE-87F6-A601BC94994A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elinder2A1", "elinder2A1\elinder2A1.csproj", "{D8881E27-B14E-4A7E-A243-6B7405B3AC12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{71CCBA20-4CF4-458E-A52B-5090B25FD503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71CCBA20-4CF4-458E-A52B-5090B25FD503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71CCBA20-4CF4-458E-A52B-5090B25FD503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E265B7-CFB1-46DE-87F6-A601BC94994A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E265B7-CFB1-46DE-87F6-A601BC94994A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E265B7-CFB1-46DE-87F6-A601BC94994A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E265B7-CFB1-46DE-87F6-A601BC94994A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8881E27-B14E-4A7E-A243-6B7405B3AC12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8881E27-B14E-4A7E-A243-6B7405B3AC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8881E27-B14E-4A7E-A243-6B7405B3AC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8881E27-B14E-4A7E-A243-6B7405B3AC12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

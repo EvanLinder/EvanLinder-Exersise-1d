@@ -19,10 +19,12 @@ namespace elinder2A1
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            decimal discountamount = Convert.ToDecimal(txtSubtotal.Text) - Convert.ToDecimal(txtDiscountPercen);
-            txtDiscountAmount.Text = discountamount.ToString("0.00");
-            decimal total = Convert.ToDecimal(txtSubtotal.Text) - Convert.ToDecimal(txtDiscountAmount.Text);
+            decimal subtotal = Convert.ToDecimal(txtSubtotal.Text);
+            decimal discountPercen = Convert.ToDecimal(txtDiscountPercen.Text);
+            decimal discountAmount = subtotal * discountPercen / 100m;
+            decimal total = subtotal - discountAmount;
             txtTotal.Text = total.ToString("0.00");
+            txtDiscountAmount.Text = discountAmount.ToString("0.00");
         }
 
         private void btnexit_Click(object sender, EventArgs e)

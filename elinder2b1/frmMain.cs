@@ -27,13 +27,13 @@ namespace elinder2b1
             decimal rateBhutan = 0.013831m;
             decimal usdBhutan = amountBhutan * rateBhutan;
 
-            decimal amountCostaRica = 1000m''
+            decimal amountCostaRica = 1000m;
             decimal rateCostaRica = 0.00176122m;
             decimal usdCostaRica = amountCostaRica * rateCostaRica;
 
             decimal amountEuro = 10000m;
             decimal rateEuro = 1.15528m;
-            decimal usdEuro = amountEuro * rateEuro''
+            decimal usdEuro = amountEuro * rateEuro;
 
 
 

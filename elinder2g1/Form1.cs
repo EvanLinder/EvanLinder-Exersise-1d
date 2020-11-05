@@ -46,6 +46,18 @@ namespace elinder2g1
             // 2a) 'Switch' with no Default
             resultSwitch02TextBox.Text = Ex2gCalculations.Switch02(input2aTextBox.Text);
 
+            // 2b) Seperate 'if' statements
+            resultSwitch02TextBox.Text = Ex2gCalculations.If02(input2aTextBox.Text);
+
+            //2c) if elseif
+            resultElseIf02TextBox.Text = Ex2gCalculations.ElseIf02(input2aTextBox.Text);
+
+            //2d) nested if-else
+            resultNestedIfElse02TextBox.Text = Ex2gCalculations.NestedIfElse02(input2aTextBox.Text);
+
+
+
+
         }
     }
 }

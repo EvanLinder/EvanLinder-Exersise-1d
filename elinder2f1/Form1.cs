@@ -19,8 +19,7 @@ namespace elinder2f1
 
         private void calcButton_Click(object sender, EventArgs e)
         {
-            decimal subtotal = 0.0m;
-            decimal discountPercent = 0.0m;
+
 
             //#1
             result1TextBox.Text = Ex2fCalculations.Calc01(input1TextBox.Text);

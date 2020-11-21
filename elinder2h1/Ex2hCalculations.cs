@@ -9,7 +9,7 @@ namespace elinder2h1
     {
         public static string DateCalc06(string strYear, string strMonth, string strDay)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             DateTime date;
             try
             {
@@ -24,7 +24,7 @@ namespace elinder2h1
         }
         public static string DateCalc07(string strDate)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             DateTime date;
             try
             {
@@ -38,7 +38,7 @@ namespace elinder2h1
         }
         public static string DateCalc08(string strDate)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             DateTime date;
             DateTime.TryParse(strDate, out date);
             result = date.ToShortDateString();
@@ -47,7 +47,7 @@ namespace elinder2h1
         }
         public static string DateCalc09(string strDateA, string strDateB)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             DateTime dateA;
             DateTime dateB;
             try
@@ -64,7 +64,7 @@ namespace elinder2h1
         }
         public static string DateCalc10(string strDateA, string strDateB)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             DateTime dateA;
             DateTime dateB;
             try
@@ -85,7 +85,7 @@ namespace elinder2h1
         }
         public static string StringCalc01(string s)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             int index1 = s.IndexOf(" ");
 
             try
@@ -101,7 +101,7 @@ namespace elinder2h1
         }
         public static string StringCalc02(string s)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             int index1 = s.IndexOf(" ");
 
             try
@@ -117,7 +117,7 @@ namespace elinder2h1
         }
         public static string StringCalc03(string s)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             int index1 = s.IndexOf(" ");
 
             try
@@ -133,7 +133,7 @@ namespace elinder2h1
         }
         public static string StringCalc04(string s)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             int index1 = s.IndexOf(" ");
 
             try
@@ -149,7 +149,7 @@ namespace elinder2h1
         }
         public static string StringCalc05(string s)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             int index1 = s.IndexOf(" ");
 
             try
@@ -165,7 +165,7 @@ namespace elinder2h1
         }
         public static string StringCalc06(string s)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             int index1 = s.IndexOf(" ");
 
             try
@@ -181,7 +181,7 @@ namespace elinder2h1
         }
         public static string StringCalc07(string s)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             int index1 = s.IndexOf(" ");
 
             try
@@ -197,7 +197,7 @@ namespace elinder2h1
         }
         public static string StringCalc08(string s)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             int index1 = s.IndexOf(" ");
 
             try
@@ -213,7 +213,7 @@ namespace elinder2h1
         }
         public static string StringCalc09(string s)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             int index1 = s.IndexOf(" ");
 
             try
@@ -229,7 +229,7 @@ namespace elinder2h1
         }
         public static string StringCalc10(string s1, string s2, string s3)
         {
-            string result = "Invalid Input";
+            string result = "Invalid input";
             int index1 = s1.IndexOf(" ");
 
             try
